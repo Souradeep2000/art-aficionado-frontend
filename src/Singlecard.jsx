@@ -12,7 +12,8 @@ import CommentBox from "./components/CommentBox";
 import { listComments } from "./actions/commentActions";
 import AllComments from "./components/AllComments";
 
-const ENDPOINT = "https://art-aficionado-backend.herokuapp.com/";
+const ENDPOINT = "https://art-aficionado.onrender.com/";
+
 // window.location.host.indexOf("localhost") >= 0
 //   ? "https://art-aficionado-backend.herokuapp.com"
 //   : window.location.host;
