@@ -125,7 +125,7 @@ function Regis() {
                 </div>
                 <input
                   type="email"
-                  placeholder="email"
+                  placeholder="admin@gmail.com"
                   value={email}
                   onChange={(e) => Setemail(e.target.value)}
                 />
@@ -136,7 +136,7 @@ function Regis() {
                 </div>
                 <input
                   type="password"
-                  placeholder="Password"
+                  placeholder="12345678"
                   value={password}
                   onChange={(e) => Setpassword(e.target.value)}
                 />
