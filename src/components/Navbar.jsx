@@ -41,7 +41,7 @@ function Navbar() {
 
   const signoutHandler = () => {
     dispatch(signout());
-    location.reload();
+    window.location.reload();
   };
 
   const handleSearch = () => {
